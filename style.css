@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;500;700&family=Roboto:wght@300&family=Ubuntu:wght@400;500&display=swap');
+@font-face {
+    font-family: 'Amazon';
+    src: url("C:\Users\archa\Downloads\Amazon_Typefaces_Complete_Font_Set_Mar2020\Amazon_Typefaces_Complete_Font_Set_Mar2020\Ember");
+}
+
+.img {
+    height: 42px;
+    width: auto;
+    margin: 10px 0 20px 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+* {
+    margin-top: 10px;
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.card {
+    border: 1px solid lightgrey;
+    font-family: 'Amazon', sans-serif;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px 20px;
+    text-align: left;
+    margin: 0 auto 40px auto;
+    display: block;
+    min-width: 300px;
+}
+
+.card h1 {
+    font-family: 'Amazon_Typefaces_Complete_Font_Set_Mar2020';
+    font-weight: 400;
+}
+
+.card h4 {
+    margin-top: 1rem;
+    font-size: 13px;
+}
+
+.card input {
+    width: 90%;
+    padding: 7px 12px;
+    font-family: 'Ubuntu';
+    margin: -10px 0 10px 0;
+}
+
+input[type=text] {
+    font-size: 40px;
+}
+
+.card button {
+    width: 100%;
+    font-family: 'Amazon_Typefaces_Complete_Font_Set_Mar2020';
+    padding: 6px 10px;
+    background-color: rgb(253, 204, 113);
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.card button:active {
+    width: 100%;
+    font-family: 'Amazon_Typefaces_Complete_Font_Set_Mar2020';
+    padding: 6px 10px;
+    background-color: rgb(255, 190, 70);
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px rgb(216, 130, 0);
+    border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.card button:hover {
+    width: 100%;
+    font-family: 'Amazon_Typefaces_Complete_Font_Set_Mar2020';
+    padding: 6px 10px;
+    background-color: rgb(250, 199, 106);
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.card p {
+    font-family: 'Amazon';
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+a {
+    color: rgb(62, 97, 255);
+}
+
+.nta {
+    font-family: 'Amazon_Typefaces_Complete_Font_Set_Mar2020';
+    font-size: 14px;
+    display: inline;
+    margin-left: 46%;
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 0 3px;
+}
+
+.new {
+    border-top: 1px solid lightgray;
+    margin: 13px auto -11px auto;
+    width: 340px;
+    margin-top: -8px;
+    margin-left: 590px;
+}
+
+.create {
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.btn {
+    padding: 8px 125px;
+    font-family: 'ubuntu';
+    margin-bottom: 2rem;
+}
+
+.links {
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 13px;
+    /* border: 1px solid black; */
+}
+
+.footer {
+    text-align: center;
+    font-size: 13px;
+}
+
+.copyright {
+    margin-top: 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 216);
+}
